@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(0,0,0,.6);
+    background-blend-mode: overlay;
+    color: white;
+}
+
+.header{
+    text-align: center;
+    padding-top: 200px;
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 100px;
+}
+
+hr{
+    height: 1px;
+    background-color: white;
+    border: none;
+    width: 60%;
+    display: inline-block;
+    text-align: center;
+}
+
+.font{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+.card1{
+    margin-top: 240px;
+    padding: 20px;
+    background-color: rgba(255, 0, 0, 0.150);
+    text-align: center;
+}
+
+.card2{
+    padding: 20px;
+    background-color: rgba(255, 0, 0, 0.150);
+    text-align: center;
+}
+
+.number{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    text-align: center;
+    width: 70px;
+}
+
+#submit{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    width: 100px;
+}
+
+.delivery{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    width: 70px;
+}
+
+#checkOut{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    width: 120px;
+}
